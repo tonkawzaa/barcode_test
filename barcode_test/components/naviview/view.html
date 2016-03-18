@@ -1,0 +1,25 @@
+<div data-role="view" data-title="navi_view" data-layout="main-nonav" data-model="app.naviview" data-show="app.naviview.onShow" data-after-show="app.naviview.afterShow">
+
+    
+        
+        <div id="view1" >
+            <span data-bind="text: id"></span></br>
+    		<span data-bind="text: name"></span></br>
+        </div>
+        
+
+		<a class="primary" data-role="button" data-bind="events: { click: secondview }">secondview</a>
+        <a class="primary" data-role="button" data-bind="events: { click: thirdview }">thirdview</a>
+    	 
+    
+    <div id="view2" style="display:none;" >  
+        secondview
+		<a class="primary" data-role="button" data-bind="events: { click: firstview }">firstview</a>
+	</div> 
+    
+    <div id="view3" style="display:none;" >  
+        thirdview
+		<a class="primary" data-role="button" data-bind="events: { click: firstview }">firstview</a>
+	</div>
+
+</div>

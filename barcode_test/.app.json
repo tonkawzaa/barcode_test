@@ -7,6 +7,13 @@
       "components": [],
       "title": "Home View",
       "addToNavigation": false
+    },
+    {
+      "type": "kendo-ui-mobile:view",
+      "name": "naviview",
+      "components": [],
+      "title": "navi_view",
+      "addToNavigation": false
     }
   ],
   "dataProviders": [],

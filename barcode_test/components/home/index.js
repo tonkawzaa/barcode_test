@@ -30,7 +30,7 @@ app.home = kendo.observable({
 
                                 }
                                 });
-                    
+                     
                     
                 }, 
                 function(error) {
